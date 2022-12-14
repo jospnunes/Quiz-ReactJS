@@ -29,6 +29,7 @@ body
   justify-content: center;
   align-items: center;
   font-size: 3rem;
+  
 }
 
 .question
@@ -44,9 +45,7 @@ body
   font-weight: bolder;
   margin: 0.5rem 0;
 }
-.question-count span{
-  font-size: 2rem;
-}
+
 .questionText
 {
   font-size: 1.3rem;
@@ -77,16 +76,7 @@ button {
 button:hover {
 	background-color:#666666;
 }
-button:active {
-	position:relative;
-	top:1px;
-}
 
-@keyframes score {
 
-  100%
-  {
-    font-size: 3rem;
-  }
-}
+
 

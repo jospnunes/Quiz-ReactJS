@@ -3,12 +3,11 @@ import './Quiz.css'
 import { questions } from './questions';
 export default function Quiz() {
     
-
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [showScore, setShowScore] = useState(false);
     const [score, setScore] = useState(0);
     
-     const handleAnswer = (isCorrect) => {
+    const handleAnswer = (isCorrect) => {
         if (isCorrect) {
             setScore(score + 1);
         }
@@ -44,6 +43,5 @@ export default function Quiz() {
                 </>
             )}
         </div>
-
     );
 }
